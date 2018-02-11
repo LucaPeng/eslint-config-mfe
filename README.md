@@ -1,12 +1,12 @@
 ## eslint-config-mfe
 
-MFE团队通用ESLint 规范，包含es6、react、vue规范。 es6规范基于airbnb-base，react规范基于airbnb，vue规范基于eslint-plugin-vue。
+MFE团队通用ESLint 规范，包含es6、react、vue、node规范。es6规范基于airbnb-base，react规范基于airbnb，vue规范基于eslint-plugin-vue。
 
 ### Installation & Usage
 
 #### 安装 eslint-config-mfe
 
-使用 npm 安装：
+使用 npm 安装：
 
 ```
   npm install eslint-config-mfe
@@ -16,7 +16,7 @@ MFE团队通用ESLint 规范，包含es6、react、vue规范。 es6规范基于a
 
 首先需要安装依赖，包括：
 
-* base depends：
+* base depends：
   + eslint
   + eslint-babel
 * plugins & config:
@@ -36,12 +36,12 @@ MFE团队通用ESLint 规范，包含es6、react、vue规范。 es6规范基于a
 ```
   module.exports = {
     extend: [
-        'eslint-config-mfe/eslintrc.base.js',
+        'eslint-config-mfe/eslintrc.es6.js',
     ]
   };
 ```
 
-对于 es6、react、vue、node 项目请将文件路径改为对应的文件。
+对于 react、vue、node 项目请将文件路径改为对应的文件。
 
 ### 快速接入
 
