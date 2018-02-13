@@ -1,15 +1,14 @@
-const baseConfig = require('./eslintrc.base');
-
-module.exports = Object.assign(baseConfig, {
+module.exports = {
+  extends: [
+    "./eslintrc.base.js",
+    "plugin:node/recommended"
+  ],
+  parser: 'babel-eslint',
   env: {
-    node: true
+    node: true,
+    es6: true
   },
   plugins: [
     'node'
-  ],
-  extends: [
-    "airbnb-base",
-    "plugin:node/recommended"
-  ],
-  globals: {}
-});
+  ]
+};

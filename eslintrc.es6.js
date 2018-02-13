@@ -1,5 +1,12 @@
-const baseConfig = require('./eslintrc.base');
-
-module.exports = Object.assign(baseConfig, {
-  parser: 'babel-eslint'
-});
+module.exports = {
+  extends: './eslintrc.base.js',
+  parser: 'babel-eslint',
+  env: {
+    browser: true,
+    es6: true
+  },
+  globals: {
+    Promise: true,
+    Analytics: true,
+  }
+};

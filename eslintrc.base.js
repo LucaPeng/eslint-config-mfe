@@ -1,8 +1,5 @@
 module.exports = {
   root: true,
-  env: {
-    browser: true
-  },
   extends: 'airbnb-base',
   rules: {
     indent: [2, 4, { SwitchCase: 1 }], // 使用4个空格缩进
@@ -17,10 +14,5 @@ module.exports = {
     'class-methods-use-this': [0], // 类的实例方法可以不用this
     'no-underscore-dangle': [0], // 标识符允许使用下划线
     'import/no-unresolved': [2, { commonjs: false }], // 禁止使用commonjs规范
-  },
-  globals: {
-    window: true,
-    Promise: true,
-    Analytics: true,
-  },
+  }
 };
