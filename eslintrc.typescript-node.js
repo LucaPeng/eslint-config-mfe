@@ -3,9 +3,9 @@ module.exports = {
     './eslintrc.node.js',
     './eslintrc.typescript.js'
   ],
-  setting: {
-    'import/ignore': [
-      '\\.(ts|tsx)$'
-    ]
+  rules: {
+    'import/extensions': 'off',
+    'import/no-unresolved': 'off',
+    'import/first': 'off'
   }
 };
