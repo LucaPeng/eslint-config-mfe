@@ -1,5 +1,6 @@
 module.exports = {
   extends: [
+    "airbnb-base",
     "./eslintrc.base.js",
     "plugin:node/recommended"
   ],

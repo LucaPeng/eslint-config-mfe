@@ -1,16 +1,13 @@
 module.exports = {
   extends: [
-    './eslintrc.base.js',
-    'airbnb'
+    'airbnb',
+    './eslintrc.base.js'
   ],
   parser: 'babel-eslint',
   env: {
     browser: true,
     es6: true
   },
-  plugins: [
-    'react'
-  ],
   rules: {
     'react/jsx-indent': [2, 4],
     'react/jsx-indent-props': [2, 4],

@@ -12,7 +12,8 @@ module.exports = {
         'vue',
     ],
     extends: [
-        './eslintrc.base.js',     // vue 项目不使用 jsx，使用 airbnb-base 配置即可
+        'airbnb-base',   // vue 项目不使用 jsx，使用 airbnb-base 配置即可
+        './eslintrc.base.js',     
         'plugin:vue/recommended', // extends base config with recommended rules
     ],
     settings: {

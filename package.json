@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-mfe",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "shared eslint config for mfe",
   "main": "index.js",
   "scripts": {
@@ -13,5 +13,9 @@
   ],
   "author": "lucaPeng",
   "license": "ISC",
-  "dependencies": {}
+  "dependencies": {},
+  "devDependencies": {
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-config-airbnb-base": "^12.1.0"
+  }
 }

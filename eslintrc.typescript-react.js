@@ -1,7 +1,8 @@
 module.exports = {
-  extends: [
-    './eslintrc.react.js',
-    './eslintrc.typescript.js'
+  extends: './eslintrc.typescript.js',
+  plugins: [
+    'react',
+    'typescript'
   ],
   rules: {
     //

@@ -1,24 +1,25 @@
 ## eslint-config-mfe
+[Chinese Version](./README_zh.md)
 
-MFE团队通用ESLint 规范，包含es6、react、vue、node规范。es6规范基于airbnb-base，react规范基于airbnb，vue规范基于eslint-plugin-vue。
+Sharable ESLint configuration for mfe team, supporting es6、react、vue、node。All configuration based on airbnb and modified for mfe team requirements.
 
-此外，规范提供了 typescript 支持，整体结构设计如下：
+What's more, typescript is supported with followed structure:
 
-![结构设计](structure.png)
+![structure](structure.png)
 
 ### Installation & Usage
 
-#### 安装 eslint-config-mfe
+#### install eslint-config-mfe
 
-使用 npm 安装：
+use npm or yarn：
 
 ```
   npm install eslint-config-mfe
 ```
 
-#### 安装依赖
+#### install dependencies
 
-首先需要安装依赖，包括：
+follow deps are required：
 
 * base depends：
   + eslint
@@ -33,23 +34,24 @@ MFE团队通用ESLint 规范，包含es6、react、vue、node规范。es6规范�
   + eslint-plugin-jsx-a11y
   + eslint-plugin-typescript
 
-其中，plugins请按需安装；
+within them，please install plugins according to the requirements for special project type
 
-#### 配置 .eslintrc.js
+#### config .eslintrc.js
 
-在项目根目录创建.eslintrc.js文件，然后将下面的内容拷入
+create .eslintrc.js file under the root path of your project, then copy follow codes into the file
 
 ```
   module.exports = {
     extend: [
-      'eslint-config-mfe/eslintrc.es6.js',
-      // 'eslint-config-mfe/eslintrc.typescript.js'
+      'eslint-config-mfe/eslintrc.react.js',
+      // add typescript config for ts support
+      // 'eslint-config-mfe/eslintrc.typescript-react.js'
     ]
   };
 ```
 
-对于 react、vue、node 项目请将文件路径改为对应的文件。
+for es6、vue、node project, please modify extend path to corresponding file, such as eslintrc.es6.js
 
-### 快速接入
+### quickly integration
 
-此外，我们提供了快速接入工具 [eslint-init](https://www.npmjs.com/package/eslint-init)
+For quickly integration, CLI tool is supported: [eslint-init](https://www.npmjs.com/package/eslint-init).

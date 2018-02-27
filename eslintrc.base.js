@@ -1,6 +1,5 @@
 module.exports = {
   root: true,
-  extends: 'airbnb-base',
   rules: {
     indent: [2, 4, { SwitchCase: 1 }], // 使用4个空格缩进
     complexity: [2, 10], // 函数内条件的数量
