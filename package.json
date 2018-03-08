@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-mfe",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "shared eslint config for mfe",
   "main": "index.js",
   "scripts": {
@@ -11,6 +11,7 @@
     "config",
     "mfe"
   ],
+  "repository": "ssh://git@github.com:LucaPeng/eslint-config-mfe.git",
   "author": "lucaPeng",
   "license": "ISC",
   "dependencies": {},

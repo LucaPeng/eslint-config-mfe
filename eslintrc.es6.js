@@ -11,5 +11,9 @@ module.exports = {
   globals: {
     Promise: true,
     Analytics: true,
+  },
+  rules: {
+    // 禁止使用commonjs规范
+    'import/no-unresolved': ['error', { commonjs: false }],
   }
 };

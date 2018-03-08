@@ -9,12 +9,19 @@ module.exports = {
     es6: true
   },
   rules: {
-    'react/jsx-indent': [2, 4],
-    'react/jsx-indent-props': [2, 4],
-    'react/sort-comp': [0],
-    'react/jsx-no-bind': [0],
-    'react/prefer-stateless-function': [0],
-    'jsx-a11y/no-static-element-interactions': 0,
-    'jsx-a11y/click-events-have-key-events': 0
+    // jsx 使用 4 空格缩进
+    'react/jsx-indent': ['error', 4],
+    'react/jsx-indent-props': ['error', 4],
+    // 使用 jsx-index 限制即可
+    'react/jsx-closing-tag-location': 'off',
+    // propTypes 不需要限制的这么严格
+    'react/forbid-prop-types': 'off',
+    'react/sort-comp': 'off',
+    'react/jsx-no-bind': 'off',
+    'react/prefer-stateless-function': 'off',
+    'jsx-a11y/no-static-element-interactions': 'off',
+    'jsx-a11y/click-events-have-key-events': 'off',
+    // 根据实际情况判断使用即可
+    'react/jsx-no-target-blank': 'off',
   }
 };
