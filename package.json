@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-mfe",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "shared eslint config for mfe",
   "main": "index.js",
   "scripts": {
