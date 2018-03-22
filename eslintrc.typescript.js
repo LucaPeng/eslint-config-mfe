@@ -1,3 +1,10 @@
+/**
+ * ESLint rules for typescirpt
+ * use the ts rules of alloy-team/eslint-config-alloy directly
+ *
+ * @link <https://github.com/AlloyTeam/eslint-config-alloy/blob/master/typescript.js>
+ */
+
 module.exports = {
   parser: 'typescript-eslint-parser',
   plugins: [

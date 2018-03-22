@@ -3,9 +3,11 @@
 
 Sharable ESLint configuration for mfe team, supporting es6、react、vue、node。All configuration based on airbnb and modified for mfe team requirements.
 
-What's more, typescript is supported with followed structure:
+And TypeScript is supported with followed structure:
 
 ![structure](structure.png)
+
+What's more, the specific ts eslint rules refers to [eslint-config-alloy](https://github.com/AlloyTeam/eslint-config-alloy/blob/master/typescript.js) directly.
 
 ### Installation & Usage
 
