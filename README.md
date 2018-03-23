@@ -13,7 +13,7 @@ What's more, the specific ts eslint rules refers to [eslint-config-alloy](https:
 
 #### install eslint-config-mfe
 
-use npm or yarn：
+use npm or yarn：
 
 ```
   npm install eslint-config-mfe
