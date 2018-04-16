@@ -26,6 +26,10 @@ module.exports = {
     'no-eq-null': 'off',
     // 考虑到 按需加载功能，关闭全局 require 要求
     'global-require': 'off',
+    // 参数重新赋值有些是逻辑正常需求
+    'no-param-reassign': 'off',
+    // case 中可能会进行一些逻辑处理，声明写临时变量
+    'no-case-declarations': 'off',
 
     /* 代码风格问题 */
 
