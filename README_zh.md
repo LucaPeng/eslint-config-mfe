@@ -1,8 +1,8 @@
 ## eslint-config-mfe
 
-MFE团队通用ESLint 规范，包含es6、react、vue、node规范。es6规范基于airbnb-base，react规范基于airbnb，vue规范基于eslint-plugin-vue。
+MFE团队通用ESLint 规范，包含es6、react、vue、node规范。es6规范基于airbnb-base，react规范基于airbnb，vue规范基于eslint-plugin-vue。
 
-规范提供了 typescript 支持，整体结构设计如下：
+规范提供了 typescript 支持，整体结构设计如下：
 
 ![结构设计](structure.png)
 
@@ -12,7 +12,7 @@ PS: TS相关的具体ESLint规则采用 alloy-team 的方案[eslint-config-alloy
 
 #### 安装 eslint-config-mfe
 
-使用 npm 安装：
+使用 npm 安装：
 
 ```
   npm install eslint-config-mfe
