@@ -1,6 +1,6 @@
 ## eslint-config-mfe
 
-MFE团队通用ESLint 规范，包含es6、react、vue、node规范。es6规范基于airbnb-base，react规范基于airbnb，vue规范基于eslint-plugin-vue。
+MFE团队通用ESLint 规范，包含es6、react、react-native、vue、node规范。es6规范基于airbnb-base，react规范基于airbnb，vue规范基于eslint-plugin-vue。
 
 规范提供了 typescript 支持，整体结构设计如下：
 

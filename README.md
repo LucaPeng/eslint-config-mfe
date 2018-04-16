@@ -1,7 +1,7 @@
 ## eslint-config-mfe
 [Chinese Version](./README_zh.md)
 
-Sharable ESLint configuration for mfe team, supporting es6、react、vue、node。All configuration based on airbnb and modified for mfe team requirements.
+Sharable ESLint configuration for mfe team, supporting es6、react、react-native、vue、node。All configuration based on airbnb and modified for mfe team requirements.
 
 And TypeScript is supported with followed structure:
 
