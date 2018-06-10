@@ -24,7 +24,7 @@ PS: TS相关的具体ESLint规则采用 alloy-team 的方案[eslint-config-alloy
 
 * base depends：
   + eslint
-  + eslint-babel
+  + babel-eslint
   + typescript-eslint-parser
 * plugins & config:
   + eslint-config-airbnb-base or eslint-config-airbnb

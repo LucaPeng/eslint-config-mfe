@@ -25,7 +25,7 @@ follow deps are required：
 
 * base depends：
   + eslint
-  + eslint-babel
+  + babel-eslint
   + typescript-eslint-parser
 * plugins & config:
   + eslint-config-airbnb-base or eslint-config-airbnb
